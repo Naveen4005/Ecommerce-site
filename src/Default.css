@@ -1,0 +1,24 @@
+.page{
+    height: calc(100vh - 50px);
+    width: 100vw;
+    position: absolute;
+    top: 50px;
+    background-color: #bff2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.open{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    margin: 45px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: linear-gradient(-45deg, aqua, aqua, #bff2ff, #f78aff, #ee00ff);
+    font-size: 25px;
+    font-weight: 600;
+}

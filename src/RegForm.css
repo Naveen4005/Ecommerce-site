@@ -1,0 +1,12 @@
+input:focus::-webkit-input-placeholder{
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    pointer-events: none;
+    top: -15px;
+    transition: 0.3s ease all;
+}
+input::-webkit-input-placeholder{
+    transition: 0.3s ease all;
+}
